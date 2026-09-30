@@ -6,7 +6,7 @@
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
 
-scale_color_chappallettes <- function(palette = "Pink Pony Club", discrete = TRUE, reverse = FALSE, ...) {
+scale_color_chappallette <- function(palette = "Pink Pony Club", discrete = TRUE, reverse = FALSE, ...) {
   pal <- chappellRoan_pal(palette = palette, reverse = reverse)
 
   if (discrete) {
