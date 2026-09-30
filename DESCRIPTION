@@ -1,0 +1,10 @@
+Package: chappellRoan
+Type: Package
+Title: Chappell Roan Color Palettes (chappallettes) 
+Version: 0.1.0
+Author: Carli Fine
+Maintainer: The package maintainer <cf430@sussex.ac.uk>
+Description: This package contains  different color palettes inspired by Chappell Roan. Your favorite aRtist's favorite R tool.  
+License: I picked one at random. 
+Encoding: UTF-8
+LazyData: true
