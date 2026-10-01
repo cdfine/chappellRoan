@@ -20,12 +20,20 @@
 
 scale_color_chappallettes <- function(palette = "Pink Pony Club", discrete = TRUE, reverse = FALSE, ...) {
   pal <- chappellRoan_palettes[[palette]]
-  
+
   if (reverse) pal <- rev(pal)
-  
+
   if (discrete) {
-    discrete_scale("colour", paste0("chappallettes_", palette), palette = pal, ...)
+    discrete_scale(
+      "colour",
+      paste0("chappallettes_", palette),
+      palette = function(n) pal[seq_len(n)],
+      ...
+    )
   } else {
-    scale_color_gradientn(colours = colorRampPalette(pal)(256), ...)
+    scale_color_gradientn(
+      colours = colorRampPalette(pal)(256),
+      ...
+    )
   }
 }
