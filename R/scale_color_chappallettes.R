@@ -24,8 +24,10 @@ scale_color_chappallettes <- function(palette = "Pink Pony Club", discrete = TRU
   if (reverse) pal <- rev(pal)
 
   if (discrete) {
-    scale_color_manual(
-      values = pal,
+    discrete_scale(
+      "colour",
+      paste0("chappallettes_", palette),
+      palette = function(n) pal[seq_len(n)],
       ...
     )
   } else {
