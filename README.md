@@ -12,7 +12,7 @@ library(chappellRoan)
 Within ggplot:    
 scale_fill_chappallettes(palette='Pink Pony Club')     
 scale_color_chappallettes(palette='Pink Pony Club')  
-chappallettes() will list all of the different color palette options 
+chappallettes() lists all of the different color palette options.  
 
 ## All 24 palettes with names 
 <img width="803" height="479" alt="colors_alphabetical" src="https://github.com/user-attachments/assets/ac222b98-cbf6-4aa0-be65-57fc7edb0f3e" />
