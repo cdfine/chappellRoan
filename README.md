@@ -11,7 +11,7 @@ library(chappellRoan)
 ## Usage examples
 Within ggplot:    
 scale_fill_chappallettes(palette='Pink Pony Club')     
-scale_color_chappallettes(palette='Pink Pony Club')
+scale_color_chappallettes(palette='Pink Pony Club')  
 chappallettes() will list all of the different color palette options 
 
 ## All 24 palettes with names 
