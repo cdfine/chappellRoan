@@ -1,8 +1,8 @@
-#' List Chappell Roan colour palettes
+#' List Chappell Roan color palettes
 #'
-#' Displays all colour palettes available in the chappellRoan package.
+#' Displays all color palettes available in the chappellRoan package.
 #'
-#' @return A list containing all available colour palettes.
+#' @return A list containing all available color palettes.
 #'
 #' @export
 chappallettes <- function() {
