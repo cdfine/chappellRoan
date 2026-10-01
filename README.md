@@ -1,6 +1,6 @@
 # chappellRoan
 Chappell Roan inspired R color pallettes (chappallettes)!  
-Your favorite aRtist's favorite R kit to make super graphic ultra modern graphs like mine 💅
+Your favorite aRtist's favorite R kit to make super graphic ultra modern ggplots like mine 💅
 
 ## Download in R:
 ```r library(devtools)   
